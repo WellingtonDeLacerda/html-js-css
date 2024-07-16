@@ -7,7 +7,7 @@ let altura = 1.83
 
 document.write(`<div class="card">
                 <h2>Lutador</h2>
-                <img src="../images/fedor-2015.jpg">
+                <img src="images/fedor-2015.jpg">
                 <p>${lutador} </p>
                 <p>${nacionalidade} </p>
                 <p>${idade} anos </p>
