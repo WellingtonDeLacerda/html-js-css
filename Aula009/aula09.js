@@ -4,16 +4,16 @@ let titulo = document.querySelector('h1')
 //titulo.textContent = 'Aula 09 Manipular CSS'
 //titulo.innerHTML = 'Aula Manipular CSS'
 let imagem = document.querySelector('#foto')
-//imagem.setAttribute('src', '../images/pride-fc.jpg')
-//imagem.setAttribute('width', '280px')
+imagem.setAttribute('src', 'images/pride-fc.jpg')
+imagem.setAttribute('width', '280px')
 
 /* MANIPULAR CSS */
-//document.querySelector('h1').style.color = "red";
-//titulo.style.color = "red";
-//titulo.style.backgroundColor = "#000";
-//titulo.style.borderBottom = "2px solid red";
-//titulo.style.padding = "0.625rem";
-//titulo.style.borderRadius = "5px";
+document.querySelector('h1').style.color = "red";
+titulo.style.color = "red";
+titulo.style.backgroundColor = "#000";
+titulo.style.borderBottom = "2px solid red";
+titulo.style.padding = "0.625rem";
+titulo.style.borderRadius = "5px";
 
 let box = document.querySelectorAll('.box')
 //box[0].setAttribute('class', 'escura')
